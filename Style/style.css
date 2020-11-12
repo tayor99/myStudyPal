@@ -1,0 +1,99 @@
+.navbar {
+    height: 100px;
+    padding: 24px 80px;
+}
+
+.navbar-nav{
+    margin-left: 35%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#6360aa;
+ }
+
+button{
+    width: 140px;
+    height: 40px;    
+}
+.btn-outline-success {
+    color: #fff;
+    background-color: #6360aa;
+    border-color: #6360aa;
+}
+
+.btn-outline-success:hover{
+    background-color: #fff;
+    color: #6360aa;
+    border-color: #6360aa;
+}
+
+.btn-sm{
+    background-color: #fff;
+    color: #6360aa;
+    border-color: #6360aa;
+}
+
+.btn-sm:hover{
+    color: #fff;
+    background-color: #6360aa;
+    border-color: #6360aa; 
+}
+
+
+.section-a{
+    margin-top: 35px;
+    padding-left: 80px;
+}
+
+.section-a .card{
+    border: none;
+    padding: 20px 10px;
+}
+
+.card-title {
+    margin-bottom: 2rem;
+}
+.h5, h5 {
+    font-size: 2.5rem;
+    color: #6360aa;
+    font-weight: 500;
+}
+
+.section-a .card-text{
+    color: #6360aa;
+    line-height: 18px;
+}
+
+.section-b{
+    margin-top: 35px;
+}
+
+.section-b .title h1{
+    text-align: center;
+    color: #6360aa;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.section-b .card{
+    padding-top: 40px;
+    border: none;
+}
+
+.section-b .card-text{
+    padding: 60px;
+    font-weight: 500;
+}
+.section-c .card-title{
+    margin: 5rem;
+    font-size: 25px;
+    color: #fff;
+}
+
+footer{
+
+}
+
+
+
+
