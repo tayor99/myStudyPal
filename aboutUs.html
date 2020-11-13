@@ -15,22 +15,46 @@
     <title>About Us</title>
   </head>
   <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="Asset/Logo.svg" alt="" width="55" height="50">
-                </a>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" href="#">Home</a>
-                  <a class="nav-link" href="#">Contact Us</a>
-                  <a class="nav-link" href="#">About Us</a>
-                </div>
-              </div>
-              <button class="btn btn-outline-success mr-2" type="button">Log in</button>
-              <button class="btn btn-sm btn-outline-secondary" type="button">Sign Up</button>
-            </div>
-          </nav>
+         <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="images/Logo.svg" alt="Logo of My Study Pal" class="logo" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link link" href="#">Log in</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link" href="#">Sign up</a>
+              </li>
+            </ul>
+          </span>
+        </div>
+      </nav> 
           
           <div class="section-a">
               <div class="container-fluid">
@@ -113,39 +137,36 @@
                     </div>
                 </div>
             </div>
-            <footer>
-                <div class="first-pic">
-                    <div class="card bg-dark text-white">
-                        <img src="Asset/Rectangle 9.png" class="card-img" alt="...">
-                        <div class="card-img-overlay">
-                          <span class="card-title">
-                            <div class="container-fluid">
-                                <div class="row">   
-                                <div class="col-6">
-                                    <a class="navbar-brand" href="#">
-                                        <img src="Asset/Logo.svg" alt="" width="110" height="105">
-                                    </a>
-                                    <nav class="nav">
-                                        <a class="nav-link active" href="#">Home</a>
-                                        <a class="nav-link" href="#">Contact Us</a>
-                                        <a class="nav-link" href="#">About Us</a>
-                                    </nav>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="card bg-transparent">
-                                            <div class="card-body">
-                                                <h4>Connect and Follow</h4>
-                                                <a href="#"><i class="la la-facebook"></i></a>
-                                                <a href="#"><i class="la la-twitter"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>  
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+             <!--Footer Section-->
+    <footer>
+      <div class="row footer">
+        <div class="col-lg-6 footer-nav">
+          <img
+            src="images/Logo.svg"
+            alt="Logo of My StudyPal"
+            class="footer-logo"
+          />
+          <nav class="navs">
+            <ul class="list">
+              <li class="list-row">
+                <a class="footer-links" href="#">Home</a>
+              </li>
+              <li class="list-row">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+              <li class="list-row">
+                <a href="#" class="footer-links">About Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-lg-6 follow-us">
+          <h4>Connect and Follow</h4>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+        </div>
+      </div>
+    </footer>
 
 
 
